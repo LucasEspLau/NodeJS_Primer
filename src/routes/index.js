@@ -12,4 +12,5 @@ router.get('/api/get-peliculas', async(req, res) => {
     const peliculas = await TraerPeliculas()
     res.status(200).json(peliculas)
 })
+
 export default router
